@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donaciones</title>
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+  <h2 id="titulo">Centro de Recaudación y Ayuda Humanitaria: Poza Rica</h2>
+
+  
+  <div class="contenedor-principal">
+    <div class="caja" id="izquierda">
+      <h3>Ubicaciones de acopio</h3>
+      <p>Puedes llevar tu donativo a:</p>
+      <ol>
+        <li>Primaria Benito Juárez</li>
+        <li>Ayuntamiento Municipal</li>
+        <li>Tecnm Centla</li>
+      </ol>
+    </div>
+
+    <main>
+        <section class="donation-form">
+            <h2>Registrar Donación</h2>
+            <form id="donationForm">
+                <input type="text" id="name" placeholder="Tu nombre" required>
+                <input type="text" id="item" placeholder="Artículo a donar" required>
+                <input type="text" id="location" placeholder="Ubicación" required>
+                <button type="submit">Agregar Donación</button>
+            </form>
+        </section>
+
+        <section class="donation-list">
+            <h2>Donaciones Registradas (<span id="donationCount">0</span>)</h2>
+            <ul id="donations"></ul>
+        </section>
+    </main>
+
+    <div class="caja" id="derecha">
+      <h3>¡Dona ahora!</h3>
+      <p>HSBC</p>
+      <ul>
+        <li>3515638662885491</li>
+      </ul>
+      <p>BBVA</p>
+      <ul>
+        <li>9934759933752444</li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div class="contenedor-inferior">
+    <h3>¡Necesitamos de tu ayuda!</h3>
+    <p>Tu ayuda no solo es una simple donación, es la entrega de una parte de tu corazón. </p>
+  </div>
+
+  <footer>
+    2025 - Empresa independiente sin fines de lucro.
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

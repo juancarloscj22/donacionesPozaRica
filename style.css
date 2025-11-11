@@ -1,0 +1,92 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #eef5ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2e7d32;
+    }
+    #titulo{
+        font-size: 40px;
+        margin: 50px;
+    }
+
+    .contenedor-principal {
+      display: flex;
+      justify-content: center;      
+      align-items: flex-start;      
+      gap: 30px;                    
+      margin-top: 40px;
+      flex-wrap: wrap;              
+    }
+
+    
+    .caja {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      padding: 20px;
+      width: 280px;
+      height: 200px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .caja:hover {
+      transform: scale(1.03);
+    }
+
+    
+    .contenedor-inferior {
+      margin-top: 40px;
+      background-color: white;
+      width: 80%;
+      max-width: 900px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      padding: 25px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .donation-form, .donation-list {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+    form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ul, ol, p{
+  font-family: Impact;
+  align-self: 20px;
+  font-size: auto;
+}

@@ -1,11 +1,11 @@
-// Referencias a elementos del DOM
+
 const donationForm = document.getElementById('donationForm');
 const donationsList = document.getElementById('donations');
 const donationCount = document.getElementById('donationCount');
 
 let donations = [];
 
-// Función para actualizar la lista de donaciones
+
 function updateDonations() {
     donationsList.innerHTML = '';
     donations.forEach((donation, index) => {
@@ -16,7 +16,7 @@ function updateDonations() {
     donationCount.textContent = donations.length;
 }
 
-// Evento al enviar el formulario
+
 donationForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -30,3 +30,4 @@ donationForm.addEventListener('submit', (e) => {
         donationForm.reset();
     }
 });
+
